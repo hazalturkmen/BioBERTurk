@@ -23,3 +23,4 @@ All Fine-tuned models are available in the Hugging Faces repository.
 # How to use the model
 
 # Acknowledgements
+We would like to acknowledge the support we received from the Tensorflow Research Cloud (TRC) team in providing access to TPUv3 units.
