@@ -19,3 +19,7 @@ All Fine-tuned models are available in the Hugging Faces repository.
 |  Abnormal |   F1   |   90.61%  |  91.01% |    **93.02%**    |     92.84%    |       89.33%      |    91.06%    |
 | Uncertain |   F1   |   85.39%  |  82.95% |    **85.91%**    |     85.29%    |       80.33%      |    84.15%    |
 |  Model F1 score |        |   91.86%  |  91.48% |    **92.99%**    |     92.75%    |       89.48%      |    91.42%    |
+
+# How to use the model
+
+# Acknowledgements
