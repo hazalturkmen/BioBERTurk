@@ -11,3 +11,11 @@ To evaluate our model’s performance at the clinical text classification task, 
 The annotation schema included three classes- ”Presence of Intracranial Pathology (Abnormal)”, ”No Intracranial Pathology (Normal)” and ”Out of Series”, respectively, to indicate the presence or absence of an intracranial medical abnormality and not to be included in the evaluation of intracranial pathology. This study was approved by the Ege University Ethical Committee with reference number: 21-11T/11.
 
 All Fine-tuned models are available in the Hugging Faces repository.
+
+|   Labels  | Metric |   Berturk |         | Bioberturk(con) |               |   Bioberturk(sc)  | mBert(cased) |
+|:---------:|:------:|:---------:|:-------:|:----------------:|:-------------:|:-----------------:|:------------:|
+|           |        |  +trW(c)  | +trW(u) |      +trM(c)     | +(trM+trR)(c) | +(trW+trM+trR)(u) |              |
+|   Normal  |   F1   |   94.24%  |  94.10% |    **94.97%**    |     94.80%    |       92.13%      |    93.63%    |
+|  Abnormal |   F1   |   90.61%  |  91.01% |    **93.02%**    |     92.84%    |       89.33%      |    91.06%    |
+| Uncertain |   F1   |   85.39%  |  82.95% |    **85.91%**    |     85.29%    |       80.33%      |    84.15%    |
+|  Model F1 score |        |   91.86%  |  91.48% |    **92.99%**    |     92.75%    |       89.48%      |    91.42%    |
