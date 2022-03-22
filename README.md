@@ -20,7 +20,7 @@ All Fine-tuned models are available in the Hugging Faces repository.
 | Out of Series |   F1   |   85.39%  |  82.95% |    **85.91%**    |     85.29%    |       80.33%      |    84.15%    |
 |  Model F1 score |        |   91.86%  |  91.48% |    **92.99%**    |     92.75%    |       89.48%      |    91.42%    |
 
-#  BioBERTurk fine-tuning for text classification in Turkish radiology reports
+#  How to use model
 
 # Acknowledgements
 We would like to acknowledge the support we received from the Tensorflow Research Cloud (TRC) team in providing access to TPUv3 units.
