@@ -20,6 +20,22 @@ All Fine-tuned models are available in the Hugging Faces repository.
 | Out of Series |   F1   |   85.39%  |  82.95% |    **85.91%**    |     85.29%    |       80.33%      |    84.15%    |
 |  Model F1 score |        |   91.86%  |  91.48% |    **92.99%**    |     92.75%    |       89.48%      |    91.42%    |
 
+For each model, we performed hyperparameters searches for learning rate values ϵ {2e-4, 3e-5, 5e-5}, max sequence length ϵ {128, 256, 512}, batch size ϵ {16, 32} and the number of the training ϵ {3, 4, 5}. Batch size 64 was not utilized due to the memory limitations. 
+Following table presents the hyperparameters and their tested options.
+
+
+
+|  Parameter |      Settings      |   Berturk(cased) |   Berturk (uncased) | Bioberturk(cont) +trM | Bioberturk(con) +(trM+trR) | Bioberturk(sc)+ | mBert(cased) |
+|:----------:|:------------------:|:----------------:|:----------------:|:------------------------:|:------------------------------:|:-------------------------------:|:--------------:|
+| Batch size |      [16, 32]      |        32        |        32        |            16            |               16               |                32               |       16       |
+| Max Length |     [256, 512]     |        256       |        512       |            256           |               256              |               256               |       256      |
+|     LR     | [2e-5, 3e-5, 5e-5] |       5e-5       |       5e-5       |           2e-5           |              5e-5              |               5e-5              |      2e-5      |
+|    Epoch   |      [3, 4, 5]     |         5        |         4        |             5            |                5               |                5                |        3       |
+|  F1 score  |                    |      91.86%      |      91.48%      |        **92.99%**        |             92.75%             |              89.48%             |     91.42%     |
+
+
+
+
 #  How to use model
 
 # Acknowledgements
