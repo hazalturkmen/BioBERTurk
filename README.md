@@ -39,4 +39,4 @@ Following table presents the hyperparameters and their tested options.
 #  How to use model
 
 # Acknowledgements
-We would like to acknowledge the support we received from the Tensorflow Research Cloud (TRC) team in providing access to TPUv3 units.
+We would like to acknowledge the support we received from the TPU Research Cloud(TRC) team in providing access to TPUv3 units.
