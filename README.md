@@ -36,7 +36,13 @@ Following table presents the hyperparameters and their tested options.
 
 
 
-#  How to use model
+#  Cite
+If you want to use the models or the corpus, please cite this as follows:
+
+
+#  Bibtex
+
+
 
 # Acknowledgements
 We would like to acknowledge the support we received from the TPU Research Cloud(TRC) team in providing access to TPUv3 units.
