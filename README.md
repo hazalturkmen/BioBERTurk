@@ -1,6 +1,6 @@
 # BioBERTurk- Turkish Biomedical Language Models
 
-BioBERTurk on Hugging Faces repo:
+BioBERTurk on Huggingface repo:
 
 [BioBERTurkcased-(con)+(trM)](https://huggingface.co/hazal/BioBERTurkcased-con-trM): BioBERTurkcased-(con)+(trM), was pretrained only on [Turkish biomedical text](https://huggingface.co/datasets/hazal/Turkish-Biomedical-corpus-trM) and applied the continual training approach, initializing weights from available general Turkish [BERTurk](https://github.com/stefan-it/turkish-bert).\
 [BioBERTurkcased-(con)+(trM+trR)](https://huggingface.co/hazal/BioBERTurkcased-con-trM-trR): BioBERTurkcased-(con)+(trM+trR), was pretrained on Turkish biomedical text and [radiology thesis](https://huggingface.co/datasets/hazal/electronic-radiology-phd-thesis-trR/tree/main) and applied the continual training approach, initializing weights from available general Turkish [BERTurk](https://github.com/stefan-it/turkish-bert).
@@ -20,7 +20,7 @@ All Fine-tuned models are available in the [Hugging Faces repository](https://hu
 | Out of Series |   F1   |   85.39%  |  82.95% |    **85.91%**    |     85.29%    |       80.33%      |    84.15%    |
 |  Model F1 score |        |   91.86%  |  91.48% |    **92.99%**    |     92.75%    |       89.48%      |    91.42%    |
 
-For each model, we performed hyperparameters searches for learning rate values ϵ {2e-4, 3e-5, 5e-5}, max sequence length ϵ {128, 256, 512}, batch size ϵ {16, 32} and the number of the training ϵ {3, 4, 5}. Batch size 64 was not utilized due to the memory limitations. 
+For each model, we performed hyperparameters searches for learning rate values ϵ {2e-4, 3e-5, 5e-5}, max sequence length ϵ {128, 256, 512}, batch size ϵ {16, 32} and the number of the training epochs ϵ {3, 4, 5}. Batch size 64 was not utilized due to the memory limitations. 
 Following table presents the hyperparameters and their tested options.
 
 
