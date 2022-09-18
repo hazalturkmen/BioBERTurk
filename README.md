@@ -41,14 +41,14 @@ If you want to use the models or the corpus, please cite this as follows:
 
 
 #  Bibtex
-"""@inproceedings{turkmen2022developing,
+'''@inproceedings{turkmen2022developing,
   title={Developing Pretrained Language Models for Turkish Biomedical Domain},
   author={T{\"u}rkmen, Hazal and Dikenelli, O{\u{g}}uz and Eraslan, Cenk and {\c{C}}alli, Mehmet Cem and Ozbek, Suha Sureyya},
   booktitle={2022 IEEE 10th International Conference on Healthcare Informatics (ICHI)},
   pages={597--598},
   year={2022},
   organization={IEEE}
-}"""
+}'''
 
 
 # Acknowledgements
